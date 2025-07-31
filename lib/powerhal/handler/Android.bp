@@ -1,0 +1,21 @@
+cc_binary {
+    name: "touch_boost",
+    srcs: [
+        "touch_boost.cpp",
+    ],
+    header_libs: [
+        "libpowerhal_headers",
+    ],
+    shared_libs: [
+        "libc",
+        "libcutils",
+        "libdl",
+        "libui",
+        "libutils",
+        "libexpat",
+        "liblog",
+    ],
+    init_rc: ["touch_boost.rc"],
+    proprietary: true,
+    owner: "mtk",
+}

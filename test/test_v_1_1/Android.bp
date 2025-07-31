@@ -1,0 +1,39 @@
+
+cc_binary {
+    proprietary: true,
+    defaults: ["hidl_defaults"],
+    relative_install_path: "hw",
+    name: "power_native_test_v_1_1",
+    srcs: [
+        "power_native_test_v_1_1.cpp",
+    ],
+
+    cflags: [
+        "-Wall",
+        "-Werror",
+    ],
+
+    header_libs: [
+        "libpowerhal_headers",
+    ],
+
+    shared_libs: [
+        "liblog",
+        "libutils",
+        "libcutils",
+        "libhardware",
+        "libhidlbase",
+        "libdl",
+        "libbase",
+        "libbinder",
+        "libc",
+        "vendor.mediatek.hardware.mtkpower-V2-ndk",
+        "vendor.mediatek.hardware.mtkpower@1.0",
+        "vendor.mediatek.hardware.mtkpower@1.1",
+        "vendor.mediatek.hardware.mtkpower@1.2",
+        "android.hardware.power-V1-ndk",
+        "libbinder_ndk",
+    ],
+
+}
+
