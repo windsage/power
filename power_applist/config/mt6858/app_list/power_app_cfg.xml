@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The source code provided herein is for optimizing power and performance of gaming software
+and certain applications (e.g. Sina Weibo, QQ) only and should not be used and/or included in
+any software that is unrelated to enhancing end-user experience. -->
+<WHITELIST>
+
+    <!-- SPD:add benchmark by fan.feng at 20240115 start-->
+    <Package name="com.andromeda.androbench2">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="3"></data>
+                    <data cmd="PERF_RES_CPUFREQ_PERF_MODE" param1="1"></data>
+                    <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.antutu.ABenchMark">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="3"></data>
+                    <data cmd="PERF_RES_CPUFREQ_PERF_MODE" param1="1"></data>
+                    <data cmd="PERF_RES_GPU_FREQ_MIN" param1="0"></data>
+                    <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.antutu.benchmark.full">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="3"></data>
+                    <data cmd="PERF_RES_CPUFREQ_PERF_MODE" param1="1"></data>
+                    <data cmd="PERF_RES_GPU_FREQ_MIN" param1="0"></data>
+                    <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.futuremark.pcmark.android.benchmark">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="3"></data>
+                    <data cmd="PERF_RES_CPUFREQ_PERF_MODE" param1="1"></data>
+                    <data cmd="PERF_RES_GPU_FREQ_MIN" param1="0"></data>
+                    <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.andromeda.androbench2">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="3"></data>
+                    <data cmd="PERF_RES_CPUFREQ_PERF_MODE" param1="1"></data>
+                    <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
+                    <data cmd="PERF_RES_CPUFREQ_MAX_HL_CLUSTER_0" param1="3000000"></data>
+                    <data cmd="PERF_RES_CPUFREQ_MAX_HL_CLUSTER_1" param1="3000000"></data>
+                    <data cmd="PERF_RES_CPUFREQ_MAX_HL_CLUSTER_2" param1="3100000"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.futuremark.pcmark.android.benchmark">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="3"></data>
+                    <data cmd="PERF_RES_CPUFREQ_PERF_MODE" param1="1"></data>
+                    <data cmd="PERF_RES_GPU_FREQ_MIN" param1="0"></data>
+                    <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
+                    <data cmd="PERF_RES_CPUFREQ_MAX_HL_CLUSTER_0" param1="3000000"></data>
+                    <data cmd="PERF_RES_CPUFREQ_MAX_HL_CLUSTER_1" param1="3000000"></data>
+                    <data cmd="PERF_RES_CPUFREQ_MAX_HL_CLUSTER_2" param1="3100000"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.antutu.aibenchmark">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="3"></data>
+                    <data cmd="PERF_RES_CPUFREQ_PERF_MODE" param1="1"></data>
+                    <data cmd="PERF_RES_GPU_FREQ_MIN" param1="0"></data>
+                    <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
+                    <data cmd="PERF_RES_CPUFREQ_MAX_HL_CLUSTER_0" param1="3000000"></data>
+                    <data cmd="PERF_RES_CPUFREQ_MAX_HL_CLUSTER_1" param1="3000000"></data>
+                    <data cmd="PERF_RES_CPUFREQ_MAX_HL_CLUSTER_2" param1="3100000"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.ludashi.benchmark2">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="3"></data>
+                    <data cmd="PERF_RES_CPUFREQ_PERF_MODE" param1="1"></data>
+                    <data cmd="PERF_RES_GPU_FREQ_MIN" param1="0"></data>
+                    <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.ludashi.benchmark">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="3"></data>
+                    <data cmd="PERF_RES_CPUFREQ_PERF_MODE" param1="1"></data>
+                    <data cmd="PERF_RES_GPU_FREQ_MIN" param1="0"></data>
+                    <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.glbenchmark.glbenchmark27">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="3"></data>
+                    <data cmd="PERF_RES_CPUFREQ_PERF_MODE" param1="1"></data>
+                    <data cmd="PERF_RES_GPU_FREQ_MIN" param1="0"></data>
+                    <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.ludashi.aibench">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="3"></data>
+                    <data cmd="PERF_RES_CPUFREQ_PERF_MODE" param1="1"></data>
+                    <data cmd="PERF_RES_GPU_FREQ_MIN" param1="0"></data>
+                    <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="org.benchmark.demo">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="3"></data>
+                    <data cmd="PERF_RES_CPUFREQ_PERF_MODE" param1="1"></data>
+                    <data cmd="PERF_RES_GPU_FREQ_MIN" param1="0"></data>
+                    <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="org.aibench.neuralscope">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="3"></data>
+                    <data cmd="PERF_RES_CPUFREQ_PERF_MODE" param1="1"></data>
+                    <data cmd="PERF_RES_GPU_FREQ_MIN" param1="0"></data>
+                    <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="eu.chainfire.cfbench">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="3"></data>
+                    <data cmd="PERF_RES_CPUFREQ_PERF_MODE" param1="1"></data>
+                    <data cmd="PERF_RES_GPU_FREQ_MIN" param1="0"></data>
+                    <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.primatelabs.geekbench5">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="3"></data>
+                    <data cmd="PERF_RES_CPUFREQ_PERF_MODE" param1="1"></data>
+                    <data cmd="PERF_RES_GPU_FREQ_MIN" param1="0"></data>
+                    <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="org.zeroxlab.zeroxbenchmark">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="3"></data>
+                    <data cmd="PERF_RES_CPUFREQ_PERF_MODE" param1="1"></data>
+                    <data cmd="PERF_RES_GPU_FREQ_MIN" param1="0"></data>
+                    <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.threed.jpct.benchxl">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="3"></data>
+                    <data cmd="PERF_RES_CPUFREQ_PERF_MODE" param1="1"></data>
+                    <data cmd="PERF_RES_GPU_FREQ_MIN" param1="0"></data>
+                    <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.threed.jpct.bench">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="3"></data>
+                    <data cmd="PERF_RES_CPUFREQ_PERF_MODE" param1="1"></data>
+                    <data cmd="PERF_RES_GPU_FREQ_MIN" param1="0"></data>
+                    <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.tactel.electopiaon">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="3"></data>
+                    <data cmd="PERF_RES_CPUFREQ_PERF_MODE" param1="1"></data>
+                    <data cmd="PERF_RES_GPU_FREQ_MIN" param1="0"></data>
+                    <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.edburnette.fps2d">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="3"></data>
+                    <data cmd="PERF_RES_CPUFREQ_PERF_MODE" param1="1"></data>
+                    <data cmd="PERF_RES_GPU_FREQ_MIN" param1="0"></data>
+                    <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="se.nena.nenamark2">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="3"></data>
+                    <data cmd="PERF_RES_CPUFREQ_PERF_MODE" param1="1"></data>
+                    <data cmd="PERF_RES_GPU_FREQ_MIN" param1="0"></data>
+                    <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.aurorasoftworks.quadrant.ui.professional">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="3"></data>
+                    <data cmd="PERF_RES_CPUFREQ_PERF_MODE" param1="1"></data>
+                    <data cmd="PERF_RES_GPU_FREQ_MIN" param1="0"></data>
+                    <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="appz.sunspider.benchmark">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="3"></data>
+                    <data cmd="PERF_RES_CPUFREQ_PERF_MODE" param1="1"></data>
+                    <data cmd="PERF_RES_GPU_FREQ_MIN" param1="0"></data>
+                    <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.quicinc.vellamo">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="3"></data>
+                    <data cmd="PERF_RES_CPUFREQ_PERF_MODE" param1="1"></data>
+                    <data cmd="PERF_RES_GPU_FREQ_MIN" param1="0"></data>
+                    <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.primatelabs.geekbench">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="3"></data>
+                    <data cmd="PERF_RES_CPUFREQ_PERF_MODE" param1="1"></data>
+                    <data cmd="PERF_RES_GPU_FREQ_MIN" param1="0"></data>
+                    <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.drolez.nbench">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="3"></data>
+                    <data cmd="PERF_RES_CPUFREQ_PERF_MODE" param1="1"></data>
+                    <data cmd="PERF_RES_GPU_FREQ_MIN" param1="0"></data>
+                    <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <!-- SPD:add benchmark by fan.feng at 20240115 end-->
+    <!-- SPD: add for app to 0-7 dex2oat cpus by fan.feng1 20230619 start -->
+    <Package name="com.google.android.packageinstaller">
+        <Activity name="com.android.packageinstaller.InstallInstalling">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_SCHED_CPUSET_DEX2OAT" param1="255"></data>
+                    <data cmd="PERF_RES_POWERHAL_SCREEN_OFF_STATE" param1="2"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.android.vending">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_SCHED_CPUSET_DEX2OAT" param1="255"></data>
+                    <data cmd="PERF_RES_POWERHAL_SCREEN_OFF_STATE" param1="2"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.google.android.apps.nbu.files">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_SCHED_CPUSET_DEX2OAT" param1="255"></data>
+                    <data cmd="PERF_RES_POWERHAL_SCREEN_OFF_STATE" param1="2"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.apkpure.aegon">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_SCHED_CPUSET_DEX2OAT" param1="255"></data>
+                    <data cmd="PERF_RES_POWERHAL_SCREEN_OFF_STATE" param1="2"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.taptap">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_SCHED_CPUSET_DEX2OAT" param1="255"></data>
+                    <data cmd="PERF_RES_POWERHAL_SCREEN_OFF_STATE" param1="2"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <!-- SPD: add for app to 0-7 dex2oat cpus by fan.feng1 20230619 end -->
+    <!-- SPD: add for filemanagerx to 0-7 dex2oat cpus by dewang.tan 20241031 start-->
+    <Package name="com.transsion.filemanagerx">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_SCHED_CPUSET_DEX2OAT" param1="255"></data>
+                    <data cmd="PERF_RES_POWERHAL_SCREEN_OFF_STATE" param1="2"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <!-- SPD: add for filemanagerx to 0-7 dex2oat cpus by dewang.tan 20241031 end -->
+</WHITELIST>

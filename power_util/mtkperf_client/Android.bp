@@ -1,0 +1,45 @@
+cc_library_shared {
+    name: "libmtkperf_client_vendor",
+    proprietary: true,
+    srcs: [
+        "mtkperf_lock.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libhidlbase",
+        "libutils",
+        "libbase",
+        "libbinder",
+		"libbinder_ndk",
+        "libcutils",
+        "libc",
+        "vendor.mediatek.hardware.mtkpower-V2-ndk",
+        "vendor.mediatek.hardware.mtkpower@1.0",
+        "vendor.mediatek.hardware.mtkpower@1.1",
+        "vendor.mediatek.hardware.mtkpower@1.2",
+    ],
+    owner: "mtk",
+}
+
+cc_library_shared {
+    name: "libmtkperf_client",
+    system_ext_specific: true,
+    srcs: [
+        "mtkperf_lock.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libhidlbase",
+        "libutils",
+        "libbase",
+        "libbinder",
+		"libbinder_ndk",
+        "libcutils",
+        "libc",
+        "vendor.mediatek.hardware.mtkpower-V2-ndk",
+        "vendor.mediatek.hardware.mtkpower@1.0",
+        "vendor.mediatek.hardware.mtkpower@1.1",
+        "vendor.mediatek.hardware.mtkpower@1.2",
+    ],
+    owner: "mtk",
+}

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SCNTABLE>
+    <scenario powerhint="MTKPOWER_HINT_ACT_SWITCH">
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" param1="1700000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" param1="2700000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_2" param1="2800000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_0" param1="1900000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_1" param1="2700000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_2" param1="3000000"></data>
+        <data cmd="PERF_RES_CPUCORE_PERF_MODE" param1="1"></data>
+        <data cmd="PERF_RES_SCHED_UCLAMP_MIN_TA" param1="100"></data>
+        <data cmd="PERF_RES_POWER_HINT_EXT_HINT" param1="59"></data>
+        <data cmd="PERF_RES_POWER_HINT_EXT_HINT_HOLD_TIME" param1="1500"></data>
+    </scenario>
+    <scenario powerhint="MTKPOWER_HINT_PACK_SWITCH">
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" param1="1900000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" param1="2700000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_2" param1="3000000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_0" param1="1900000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_1" param1="2700000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_2" param1="3000000"></data>
+        <data cmd="PERF_RES_CPUCORE_PERF_MODE" param1="1"></data>
+        <data cmd="PERF_RES_SCHED_UCLAMP_MIN_TA" param1="100"></data>
+        <!-- delete 500ms peak performance and ext boost -->
+        <!-- <data cmd="PERF_RES_POWER_HINT_HOLD_TIME" param1="500"></data> -->
+        <!-- <data cmd="PERF_RES_POWER_HINT_EXT_HINT" param1="30"></data> -->
+        <!-- <data cmd="PERF_RES_POWER_HINT_EXT_HINT_HOLD_TIME" param1="1500"></data> -->
+    </scenario>
+    <scenario powerhint="MTKPOWER_HINT_HOT_LAUNCH">
+        <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_2" param1="3300000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_1" param1="2800000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_0" param1="2100000"></data>
+        <data cmd="PERF_RES_POWER_HINT_HOLD_TIME" param1="1500"></data>
+    </scenario>
+    <scenario powerhint="LAUNCH">
+        <!-- <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" param1="1800000"></data> -->
+        <!-- <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" param1="2850000"></data> -->
+        <!-- <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_2" param1="3000000"></data> -->
+        <!-- <data cmd="PERF_RES_CPUCORE_PERF_MODE" param1="1"></data> -->
+        <!-- <data cmd="PERF_RES_FPS_FPSGO_THRM_ENABLE" param1="0"></data> -->
+        <!-- <data cmd="PERF_RES_DRAM_OPP_MIN" param1="1"></data> -->
+        <!-- <data cmd="PERF_RES_SCHED_UCLAMP_MIN_TA" param1="100"></data> -->
+        <!-- <data cmd="PERF_RES_PERF_TASK_TURBO" param1="15"></data> -->
+    </scenario>
+    <scenario powerhint="MTKPOWER_HINT_EXT_LAUNCH">
+        <!--  <data cmd="PERF_RES_DRAM_OPP_MIN" param1="2"></data> -->
+        <!--  <data cmd="PERF_RES_SCHED_UCLAMP_MIN_TA" param1="40"></data> -->
+        <!--  <data cmd="PERF_RES_CPUCORE_PERF_MODE" param1="1"></data> -->
+        <!--  <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_0" param1="1800000"></data> -->
+        <!--  <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_1" param1="2700000"></data> -->
+        <!--  <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_2" param1="3000000"></data>  -->
+    </scenario>
+    <scenario powerhint="MTKPOWER_HINT_EXT_ACT_SWITCH">
+        <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_0" param1="1800000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_1" param1="2700000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_2" param1="3000000"></data>
+    </scenario>
+    <scenario powerhint="MTKPOWER_HINT_PROCESS_CREATE">
+        <!-- <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" param1="1900000"></data>-->
+        <!-- <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" param1="2700000"></data>-->
+        <!-- <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_2" param1="3000000"></data> -->
+        <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_0" param1="1800000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_1" param1="2700000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_2" param1="3000000"></data>
+        <data cmd="PERF_RES_CPUCORE_PERF_MODE" param1="1"></data>
+        <data cmd="PERF_RES_SCHED_UCLAMP_MIN_TA" param1="100"></data>
+        <data cmd="PERF_RES_POWER_HINT_HOLD_TIME" param1="6000"></data>
+        <data cmd="PERF_RES_PERF_TASK_TURBO" param1="15"></data>
+        <data cmd="PERF_RES_SCHED_RUNNABLE_BOOST" param1 = "0"></data>
+        <!-- <data cmd="PERF_RES_POWER_HINT_EXT_HINT" param1="30"></data> -->
+        <!-- <data cmd="PERF_RES_POWER_HINT_EXT_HINT_HOLD_TIME" param1="2000"></data> -->
+    </scenario>
+    <scenario powerhint="MTKPOWER_HINT_APP_ROTATE">
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" param1="1700000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" param1="2700000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_2" param1="2800000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_0" param1="1900000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_1" param1="2700000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_2" param1="3000000"></data>
+        <data cmd="PERF_RES_CPUCORE_PERF_MODE" param1="1"></data>
+        <data cmd="PERF_RES_FPS_FPSGO_THRM_ENABLE" param1="0"></data>
+        <data cmd="PERF_RES_DRAM_OPP_MIN" param1="1"></data>
+        <data cmd="PERF_RES_SCHED_UCLAMP_MIN_TA" param1="100"></data>
+    </scenario>
+    <scenario powerhint="MTKPOWER_HINT_PMS_INSTALL">
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" param1="1800000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" param1="2850000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_2" param1="3000000"></data>
+        <data cmd="PERF_RES_CPUCORE_PERF_MODE" param1="1"></data>
+        <data cmd="PERF_RES_FPS_FPSGO_THRM_ENABLE" param1="0"></data>
+        <data cmd="PERF_RES_DRAM_OPP_MIN" param1="1"></data>
+        <data cmd="PERF_RES_SCHED_UCLAMP_MIN_TA" param1="100"></data>
+        <data cmd="PERF_RES_SCHED_UCLAMP_MIN_FG" param1="100"></data>
+        <data cmd="PERF_RES_SCHED_PREFER_IDLE_FG" param1="1"></data>
+        <data cmd="PERF_RES_POWERHAL_SCREEN_OFF_STATE" param1="2"></data>
+    </scenario>
+    <scenario powerhint="MTKPOWER_HINT_AUDIO_POWER_DL">
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" param1="400000"></data>
+        <data cmd="PERF_RES_POWERHAL_SCREEN_OFF_STATE" param1="1"></data>
+    </scenario>
+    <scenario powerhint="MTKPOWER_HINT_AUDIO_POWER_UL">
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" param1="400000"></data>
+        <data cmd="PERF_RES_POWERHAL_SCREEN_OFF_STATE" param1="1"></data>
+    </scenario>
+    <scenario powerhint="MTKPOWER_HINT_AUDIO_LATENCY_UL">
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" param1="1000000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" param1="1000000"></data>
+        <data cmd="PERF_RES_POWERHAL_SCREEN_OFF_STATE" param1="1"></data>
+    </scenario>
+    <scenario powerhint="MTKPOWER_HINT_AUDIO_DISABLE_WIFI_POWER_SAVE">
+        <data cmd="PERF_RES_NET_WIFI_CAM" param1="1"></data>
+        <data cmd="PERF_RES_POWERHAL_SCREEN_OFF_STATE" param1="1"></data>
+    </scenario>
+    <scenario powerhint="MTKPOWER_HINT_AUDIO_ROUTING">
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" param1="1500000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" param1="1000000"></data>
+        <data cmd="PERF_RES_POWERHAL_SCREEN_OFF_STATE" param1="1"></data>
+    </scenario>
+    <scenario powerhint="MTKPOWER_HINT_MULTI_DISPLAY_WITH_GPU_FPS_60">
+    </scenario>
+    <scenario powerhint="MTKPOWER_HINT_MULTI_DISPLAY_WITH_GPU_FPS_90">
+        <data cmd="PERF_RES_FPS_FBT_BHR_OPP" param1="31"></data>
+    </scenario>
+    <scenario powerhint="MTKPOWER_HINT_MULTI_DISPLAY_WITH_GPU_FPS_120">
+        <data cmd="PERF_RES_FPS_FBT_BHR_OPP" param1="31"></data>
+    </scenario>
+    <scenario powerhint="MTKPOWER_HINT_UX_MOVE_SCROLLING">
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" param1="550000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_1" param1="2300000"></data>
+        <data cmd="PERF_RES_SCHED_UCLAMP_MIN_TA" param1="25"></data>
+    </scenario>
+    <scenario powerhint="GAME_LOADING">
+        <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" param1="2000000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" param1="2850000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_2" param1="3250000"></data>
+    </scenario>
+    <scenario powerhint="MTKPOWER_HINT_UX_SCROLLING">
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" param1="1000000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_1" param1="2700000"></data>
+        <data cmd="PERF_RES_SCHED_UCLAMP_MIN_TA" param1="40"></data>
+    </scenario>
+    <scenario powerhint="MTKPOWER_HINT_GAME_MODE">
+        <data cmd="PERF_RES_FPS_FPSGO_CONTROL_BY_PID" param1="1"></data>
+        <data cmd="PERF_RES_FPS_FPSGO_RECEIVE_FW_INFO_ENABLE" param1="495"></data>
+        <data cmd="PERF_RES_FPS_FPSGO_BYPASS_NONSF_BY_PID" param1="1"></data>
+        <data cmd="PERF_RES_FPS_FPSGO_CONTROL_API_MASK_BY_PID" param1="6"></data>
+        <data cmd="PERF_RES_FPS_FPSGO_RECORD_TRACE_ENABLE" param1="1"></data>
+        <data cmd="PERF_RES_FPS_FSTB_TARGET_FPS_ENABLE_BY_PID" param1="2"></data>
+        <data cmd="PERF_RES_FPS_FPSGO_CALCULATE_DEP_ENABLE_BY_PID" param1="1"></data>
+        <data cmd="PERF_RES_FPS_FPSGO_AA_ENABLE_BY_PID" param1="1"></data>
+        <data cmd="PERF_RES_FPS_FBT_RESCUE_SECOND_ENABLE_BY_PID" param1="1"></data>
+        <data cmd="PERF_RES_FRS_ENABLE" param1="1"></data>
+        <data cmd="PERF_RES_FRS_TARGET_TEMP" param1="40500"></data>
+        <data cmd="PERF_RES_FRS_MIN_FPS" param1="10"></data>
+        <data cmd="PERF_RES_THERMAL_POLICY" param1="0"></data>
+        <data cmd="PERF_RES_SCHED_CORE_CTL_POLICY_ENABLE" param1="0"></data>
+        <data cmd="PERF_RES_ADPF_CPU_TIMING_HINT_ENABLE" param1="0"></data>
+        <data cmd="PERF_RES_FPS_FBT_FILTER_FRAME_ENABLE_BY_PID" param1="1"></data>
+        <data cmd="PERF_RES_FPS_FBT_SEPARATE_AA_BY_PID" param1="1"></data>
+        <data cmd="PERF_RES_FPS_FBT_VIP_FOLLOW_GH" param1="1"></data>
+        <data cmd="PERF_RES_FPS_FBT_TUNEPOINT_ML_TH_BY_PID" param1="8"></data>
+        <data cmd="PERF_RES_FPS_FBT_TUNEPOINT_BM_TH_BY_PID" param1="27"></data>
+        <data cmd="PERF_RES_FPS_FBT_SEPARATE_PCT_OTHER_BY_PID" param1="100"></data>
+        <data cmd="PERF_RES_FPS_FBT_BOOST_LR_BY_PID" param1="1"></data>
+        <data cmd="PERF_RES_FPS_FBT_BOOST_AFFINITY_BY_PID" param1="6"></data>
+        <data cmd="PERF_RES_FPS_FPSGO_SPID" param1="1"></data>
+        <data cmd="PERF_RES_FPS_FPSGO_EMA2_ENABLE_BY_PID" param1="1"></data>
+        <data cmd="PERF_RES_NET_BT_AUDIO_LOW_LATENCY" param1="1"></data>
+        <data cmd="PERF_RES_FPS_FBT_RESCUE_ENABLE_BY_PID" param1="1"></data>
+        <data cmd="PERF_RES_FPS_FBT_QR_T2WNT_Y_P_BY_PID" param1="0"></data>
+        <data cmd="PERF_RES_FPS_FBT_CHECK_BUFFER_QUOTA_BY_PID" param1="1"></data>
+        <data cmd="PERF_RES_FPS_FBT_GCC_ENABLE_BY_PID" param1="2"></data>
+        <data cmd="PERF_RES_FPS_FBT_SECOND_NUM_BY_PID" param1="1"></data>
+        <data cmd="PERF_RES_SCHED_IGNORE_IDLE_UTIL_CTRL" param1="1"></data>
+        <data cmd="PERF_RES_FPS_FBT_BOOST_VIP_BY_PID" param1="2"></data>
+        <data cmd="PERF_RES_FPS_FBT_VIP_MASK_BY_PID" param1="7"></data>
+        <data cmd="PERF_RES_FPS_FPSGO_AA_B_MINUS_IDLE_BY_PID" param1="1"></data>
+        <data cmd="PERF_RES_FPS_FPSGO_FORCE_NO_SUB_QUE_DEQUE_PERIOD" param1="1"></data>
+        <data cmd="PERF_RES_FPS_FPSGO_FORCE_SET_PERF_MIN" param1="50"></data>
+        <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_ENABLE" param1="0"></data>
+        <data cmd="PERF_RES_SCHED_RUNNABLE_BOOST" param1="0"></data>
+        <data cmd="PERF_RES_SCHED_DPT_CTRL" param1="0"></data>
+        <data cmd="PERF_RES_FPS_FBT_TARGET_T_UP_BOUND_BY_PID" param1="150"></data>
+        <data cmd="PERF_RES_FPS_FBT_VIP_THROTTLE_BY_PID" param1="1500"></data>
+        <data cmd="PERF_RES_MBRAIN_GAME_MODE_ENABLE" param1="1"></data>
+        <data cmd="PERF_RES_SCHED_CACHE_SET_CT_TA" param1="0"></data>
+        <data cmd="PERF_RES_FPS_FBT_SET_L3_CACHE_CT_BY_PID" param1="2"></data>
+    </scenario>
+    <scenario powerhint="MTKPOWER_HINT_UX_SCROLLING_COMMON">
+        <data cmd="PERF_RES_UX_SBE_RESCUE_ENHANS" param1="50"></data>
+        <data cmd="PERF_RES_UX_SBE_DY_FRAME_THRESHOLD" param1="3"></data>
+        <data cmd="PERF_RES_UX_SBE_DY_MAX_ENHANCE" param1="70"></data>
+        <data cmd="PERF_RES_UX_SBE_SCROLL_CNT" param1="6"></data>
+        <data cmd="PERF_RES_SCHED_RUNNABLE_BOOST" param1="0"></data>
+        <data cmd="PERF_RES_FPS_FPSGO_RECORD_TRACE_ENABLE" param1="1"></data>
+        <data cmd="PERF_RES_FPS_FPSGO_RECEIVE_FW_INFO_ENABLE" param1="495"></data>
+    </scenario>
+    <scenario powerhint="MTKPOWER_HINT_UX_SCROLLING_COMMON_MASK">
+        <data cmd="PERF_RES_UX_SBE_RESCUE_ENHANS" param1="50"></data>
+        <data cmd="PERF_RES_UX_SBE_DY_FRAME_THRESHOLD" param1="3"></data>
+        <data cmd="PERF_RES_UX_SBE_DY_MAX_ENHANCE" param1="70"></data>
+        <data cmd="PERF_RES_UX_SBE_SCROLL_CNT" param1="6"></data>
+        <data cmd="PERF_RES_SCHED_TA_MASK" param1="0X70"></data>
+        <data cmd="PERF_RES_SCHED_PREFER_IDLE_TA" param1="1"></data>
+        <data cmd="PERF_RES_SCHED_RUNNABLE_BOOST" param1="0"></data>
+        <data cmd="PERF_RES_FPS_FPSGO_RECORD_TRACE_ENABLE" param1="1"></data>
+        <data cmd="PERF_RES_FPS_FPSGO_RECEIVE_FW_INFO_ENABLE" param1="495"></data>
+    </scenario>
+    <scenario powerhint="MTKPOWER_HINT_FRS_ACT">
+        <data cmd="PERF_RES_CFP_ENABLE" param1="0"></data>
+        <data cmd="PERF_RES_FPS_FBT_MINITOP_THRS_HEAVY" param1="101"></data>
+        <data cmd="PERF_RES_FPS_FBT_CEILING_ENABLE" param1="1"></data>
+        <data cmd="PERF_RES_FPS_C_MINFREQ_ENABLE" param1="1"></data>
+        <data cmd="PERF_RES_DRAM_CM_THERMAL_HINT" param1="1"></data>
+    </scenario>
+    <scenario powerhint="MTKPOWER_HINT_SF_LOW_POWER_MODE">
+        <data cmd="PERF_RES_SCHED_PELT_HALFLIFE" param1="32"></data>
+    </scenario>
+    <scenario powerhint="MTKPOWER_HINT_CAMERA_MODE">
+        <data cmd="PERF_RES_FPS_FPSGO_BYPASS_NONSF_BY_PID" param1="0"></data>
+        <data cmd="PERF_RES_FPS_FPSGO_CONTROL_API_MASK_BY_PID" param1="6"></data>
+        <data cmd="PERF_RES_FPS_FPSGO_RECORD_TRACE_ENABLE" param1="1"></data>
+        <data cmd="PERF_RES_FPS_FPSGO_CALCULATE_DEP_ENABLE_BY_PID" param1="1"></data>
+        <data cmd="PERF_RES_FPS_FPSGO_AA_ENABLE_BY_PID" param1="1"></data>
+        <data cmd="PERF_RES_FPS_FBT_SEPARATE_AA_BY_PID" param1="1"></data>
+        <data cmd="PERF_RES_FPS_FBT_GCC_ENABLE_BY_PID" param1="2"></data>
+        <data cmd="PERF_RES_FPS_FBT_EXPECTED_FPS_MARGIN_BY_PID" param1="-5"></data>
+        <data cmd="PERF_RES_FPS_FBT_CHECK_BUFFER_QUOTA_BY_PID" param1="1"></data>
+        <data cmd="PERF_RES_FPS_FBT_RESCUE_ENABLE_BY_PID" param1="1"></data>
+        <data cmd="PERF_RES_FPS_FBT_QR_ENABLE_BY_PID" param1="1"></data>
+        <data cmd="PERF_RES_FPS_FBT_QR_T2WNT_X_BY_PID" param1="50"></data>
+        <data cmd="PERF_RES_FPS_FBT_QR_T2WNT_Y_P_BY_PID" param1="0"></data>
+        <data cmd="PERF_RES_POWERHAL_SCREEN_OFF_STATE" param1="1"></data>
+        <data cmd="PERF_RES_FPS_FPSGO_SPID" param1="1"></data>
+        <data cmd="PERF_RES_SCHED_IGNORE_IDLE_UTIL_CTRL" param1="1"></data>
+        <data cmd="PERF_RES_FPS_FPSGO_DEP_LOADING_THR_BY_PID" param1="58"></data>
+        <data cmd="PERF_RES_FPS_FPSGO_CAM_WINDOW_MS_BY_PID" param1="1000"></data>
+        <data cmd="PERF_RES_SCHED_RUNNABLE_BOOST" param1="0"></data>
+    </scenario>
+    <scenario powerhint="MTKPOWER_HINT_SCENE_TRANSITION">
+        <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" param1="2000000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" param1="2850000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_2" param1="3250000"></data>
+    </scenario>
+    <scenario powerhint="MTKPOWER_HINT_PROCESS_CREATE_PERF_MODE_GAME">
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" param1="2700000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_2" param1="3500000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_2" param1="3500000"></data>
+        <data cmd="PERF_RES_CPUCORE_PERF_MODE" param1="1"></data>
+        <data cmd="PERF_RES_DRAM_OPP_MIN" param1="1"></data>
+        <data cmd="PERF_RES_SCHED_UCLAMP_MIN_TA" param1="100"></data>
+        <data cmd="PERF_RES_POWER_HINT_HOLD_TIME" param1="6000"></data>
+        <data cmd="PERF_RES_POWER_HINT_EXT_HINT" param1="55"></data>
+        <data cmd="PERF_RES_POWER_HINT_EXT_HINT_HOLD_TIME" param1="30000"></data>
+        <data cmd="PERF_RES_PERF_TASK_TURBO" param1="15"></data>
+        <data cmd="PERF_RES_SCHED_RUNNABLE_BOOST" param1 = "0"></data>
+    </scenario>
+    <scenario powerhint="MTKPOWER_HINT_PROCESS_CREATE_BALANCE_MODE_GAME">
+        <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_0" param1="1800000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_1" param1="2700000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_2" param1="3000000"></data>
+        <data cmd="PERF_RES_CPUCORE_PERF_MODE" param1="1"></data>
+        <data cmd="PERF_RES_DRAM_OPP_MIN" param1="1"></data>
+        <data cmd="PERF_RES_SCHED_UCLAMP_MIN_TA" param1="100"></data>
+        <data cmd="PERF_RES_POWER_HINT_HOLD_TIME" param1="6000"></data>
+        <data cmd="PERF_RES_POWER_HINT_EXT_HINT" param1="55"></data>
+        <data cmd="PERF_RES_POWER_HINT_EXT_HINT_HOLD_TIME" param1="30000"></data>
+        <data cmd="PERF_RES_PERF_TASK_TURBO" param1="15"></data>
+        <data cmd="PERF_RES_SCHED_RUNNABLE_BOOST" param1 = "0"></data>
+    </scenario>
+    <scenario powerhint="MTKPOWER_HINT_EXT_LAUNCH_FOR_GAME">
+        <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_0" param1="1800000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_1" param1="2700000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_2" param1="3300000"></data>
+        <data cmd="PERF_RES_FPS_FBT_BHR_OPP" param1="31"></data>
+        <data cmd="PERF_RES_DRAM_OPP_MIN" param1="2"></data>
+        <data cmd="PERF_RES_SCHED_UCLAMP_MIN_TA" param1="40"></data>
+        <data cmd="PERF_RES_CPUCORE_PERF_MODE" param1="1"></data>
+    </scenario>
+    <scenario powerhint="MTKPOWER_HINT_PROCESS_CREATE_PERF_MODE">
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" param1="2700000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_2" param1="3500000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_2" param1="3500000"></data>
+        <data cmd="PERF_RES_CPUCORE_PERF_MODE" param1="1"></data>
+        <data cmd="PERF_RES_SCHED_UCLAMP_MIN_TA" param1="100"></data>
+        <data cmd="PERF_RES_POWER_HINT_HOLD_TIME" param1="6000"></data>
+        <data cmd="PERF_RES_PERF_TASK_TURBO" param1="15"></data>
+        <data cmd="PERF_RES_SCHED_RUNNABLE_BOOST" param1 = "0"></data>
+    </scenario>
+</SCNTABLE>
