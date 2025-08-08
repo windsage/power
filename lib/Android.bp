@@ -1,7 +1,0 @@
-cc_library_headers {
-    name: "libpowerhal_lib_headers",
-    proprietary: true,
-    owner: "mtk",
-
-    export_include_dirs: ["util", "powerhal/handler", "powerhal/rsc_util"],
-}

@@ -1,7 +1,0 @@
-cc_library_headers {
-    name: "libpower_service_headers",
-    proprietary: true,
-    owner: "mtk",
-
-    export_include_dirs: ["util", "Power_aidl", "MtkPower/aidl/default"],
-}
